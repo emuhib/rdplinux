@@ -26,7 +26,7 @@ case $choice in
     1)
         # Ubuntu 22.04
         img_file="ubuntu2204.img"
-        iso_link="https://cdimage.ubuntu.com/releases/22.04.3/release/ubuntu-22.04.5-live-server-arm64.iso"
+        iso_link="https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso"
         iso_file="ubuntu2204.iso"
         ;;
     2)
