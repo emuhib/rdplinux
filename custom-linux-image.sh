@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script creates a custom Linux image using QEMU.
 
 # Function to display menu and get user choice
 display_menu() {
