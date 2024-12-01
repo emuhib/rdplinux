@@ -4,7 +4,7 @@
 # Function to display menu and get user choice
 display_menu() {
     echo "Please select the Linux distribution to create an image for:"
-    echo "1. Ubuntu 22.04"
+    echo "1. Ubuntu 24.04"
     echo "2. Ubuntu 20.04"
     echo "3. Fedora 38"
     echo "4. Fedora 37"
@@ -24,9 +24,9 @@ display_menu
 
 case $choice in
     1)
-        # Ubuntu 22.04
-        img_file="ubuntu2204.img"
-        iso_link="https://releases.ubuntu.com/focal/ubuntu-20.04.6-live-server-amd64.iso"
+        # Ubuntu 24.04
+        img_file="ubuntu2404.img"
+        iso_link="https://releases.ubuntu.com/noble/ubuntu-24.04.1-desktop-amd64.iso"
         iso_file="ubuntu2204.iso"
         ;;
     2)
